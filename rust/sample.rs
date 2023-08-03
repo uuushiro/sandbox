@@ -12,3 +12,8 @@ fn main() {
     .map(|n| n.to_string())
     .collect::<Vec<String>>();
 }
+
+pub enum Option<T>{ 
+  None,
+  Some(T),
+}
